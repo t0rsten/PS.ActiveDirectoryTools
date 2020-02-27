@@ -23,3 +23,9 @@ A set of commands and tools for ActiveDirectory.
 ### Documentation
 
 ### Changelog
+Version 0.1.0
+  - Add function Get-tADDisabledAccounts
+  - Add function Get-tADEmptyGroups
+  - Add function Get-tADFSMOHolders
+  - Add function Get-tADLockedAccounts
+  - Add function Get-tADMode
