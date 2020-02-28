@@ -1,4 +1,4 @@
-﻿function Get-tADDisabledAccount{
+﻿function Get-tADDisabledAccounts{
   <#
   .Synopsis
     Get disabled accounts.
