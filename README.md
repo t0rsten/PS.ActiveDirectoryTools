@@ -18,6 +18,18 @@ A set of commands and tools for ActiveDirectory.
 
 ### Functions
 
+| Name                      | Description                                               |
+| ------------------------- | --------------------------------------------------------- |
+| Get-tADDisabledAccounts   | Get disabled accounts                                     |
+| Get-tADEmptyGroups        | Get empty groups                                          |
+| Get-tADFSMOHolders        | Get FSMO Holders                                          |
+| Get-tADLockedAccounts     | Get locked accounts                                       |
+| Get-tADMode               | Get current AD Mode                                       |
+| Get-tADStaleAccounts      | Get stale accounts                                        |
+| Get-tADUserPWneverExpired | Get user with never expired password                      |
+| Get-tADwellKnownObjects   | Get Active Directory well known objects by well known SID |
+
+
 ### Installation
 
 ### Documentation
@@ -29,3 +41,6 @@ Version 0.1.0
   - Add function Get-tADFSMOHolders
   - Add function Get-tADLockedAccounts
   - Add function Get-tADMode
+  - Add function Get-tADStaleAccounts
+  - Add funktion Get-tADUserPWneverExpired
+  - Add function Get-tADwellKnownObjects
