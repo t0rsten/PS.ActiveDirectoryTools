@@ -31,16 +31,21 @@ A set of commands and tools for ActiveDirectory.
 
 
 ### Installation
-
+```Powershell
+Install-Module -Name PS.ActiveDirectoryTools
+```
 ### Documentation
 
 ### Changelog
-Version 0.1.0
-  - Add function Get-tADDisabledAccounts
-  - Add function Get-tADEmptyGroups
-  - Add function Get-tADFSMOHolders
-  - Add function Get-tADLockedAccounts
-  - Add function Get-tADMode
-  - Add function Get-tADStaleAccounts
-  - Add funktion Get-tADUserPWneverExpired
-  - Add function Get-tADwellKnownObjects
+#### Version 0.1.1
+  - Added Mardown Helpfiles in ```./docs```
+
+#### Version 0.1.0
+  - Added function ```Get-tADDisabledAccounts```
+  - Added function ```Get-tADEmptyGroups```
+  - Added function ```Get-tADFSMOHolders```
+  - Added function ```Get-tADLockedAccounts```
+  - Added function ```Get-tADMode```
+  - Added function ```Get-tADStaleAccounts```
+  - Added funktion ```Get-tADUserPWneverExpired```
+  - Added function ```Get-tADwellKnownObjects```
