@@ -31,7 +31,9 @@ A set of commands and tools for ActiveDirectory.
 
 
 ### Installation
-
+```Powershell
+Install-Module -Name PS.ActiveDirectoryTools
+```
 ### Documentation
 
 ### Changelog
