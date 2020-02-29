@@ -38,7 +38,7 @@ Install-Module -Name PS.ActiveDirectoryTools
 
 ### Changelog
 #### Version 0.1.1
-  - Added Mardown Helpfiles in ```./docs```
+  - Added Markdown helpfiles in ```./docs```
 
 #### Version 0.1.0
   - Added function ```Get-tADDisabledAccounts```
