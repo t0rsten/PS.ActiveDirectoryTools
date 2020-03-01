@@ -37,6 +37,11 @@ Install-Module -Name PS.ActiveDirectoryTools
 ### Documentation
 
 ### Changelog
+#### Version 0.2.0
+  - Added function ```Test-tADDomainControllerPorts```
+  - Added function ```Get-tADUsersNeverSetPassword```
+  - Updated comment based help in functions
+
 #### Version 0.1.1
   - Added Markdown helpfiles in ```./docs```
 

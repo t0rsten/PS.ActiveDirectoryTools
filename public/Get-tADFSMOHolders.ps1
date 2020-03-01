@@ -13,12 +13,6 @@
   .NOTES
     Author: Torsten Demmich
     Mail:   torsten.demmich@gmail.com
-    Version:	1.0.0
-
-    --- ChangeLog ---
-    - Version 1.0.0
-      - Initial Version
-    
   #>
     [CmdletBinding()]
     Param()

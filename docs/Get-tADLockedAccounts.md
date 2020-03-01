@@ -62,10 +62,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 Author: Torsten Demmich
 Mail:   torsten.demmich@gmail.com
-Version:	1.0.0
-
---- ChangeLog ---
-Version 1.0.0
-  - Initial Version
 
 ## RELATED LINKS
