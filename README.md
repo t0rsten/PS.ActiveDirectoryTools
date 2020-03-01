@@ -18,16 +18,18 @@ A set of commands and tools for ActiveDirectory.
 
 ### Functions
 
-| Name                      | Description                                               |
-| ------------------------- | --------------------------------------------------------- |
-| Get-tADDisabledAccounts   | Get disabled accounts                                     |
-| Get-tADEmptyGroups        | Get empty groups                                          |
-| Get-tADFSMOHolders        | Get FSMO Holders                                          |
-| Get-tADLockedAccounts     | Get locked accounts                                       |
-| Get-tADMode               | Get current AD Mode                                       |
-| Get-tADStaleAccounts      | Get stale accounts                                        |
-| Get-tADUserPWneverExpired | Get user with never expired password                      |
-| Get-tADwellKnownObjects   | Get Active Directory well known objects by well known SID |
+| Name                          | Description                                               |
+| ----------------------------- | --------------------------------------------------------- |
+| Get-tADDisabledAccounts       | Get disabled accounts                                     |
+| Get-tADEmptyGroups            | Get empty groups                                          |
+| Get-tADFSMOHolders            | Get FSMO Holders                                          |
+| Get-tADLockedAccounts         | Get locked accounts                                       |
+| Get-tADMode                   | Get current AD Mode                                       |
+| Get-tADStaleAccounts          | Get stale accounts                                        |
+| Get-tADUserPWneverExpired     | Get user with never expired password                      |
+| Get-tADwellKnownObjects       | Get Active Directory well known objects by well known SID |
+| Test-tADDomainControllerPorts | Test port requirements for establishing DC communication  |
+| Get-tADUsersNeverSetPassword  | Get user with never expired password                      |
 
 
 ### Installation
@@ -41,6 +43,7 @@ Install-Module -Name PS.ActiveDirectoryTools
   - Added function ```Test-tADDomainControllerPorts```
   - Added function ```Get-tADUsersNeverSetPassword```
   - Updated comment based help in functions
+  - Updated Markdown helpfiles in ```./docs```
 
 #### Version 0.1.1
   - Added Markdown helpfiles in ```./docs```
