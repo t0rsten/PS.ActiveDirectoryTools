@@ -26,8 +26,8 @@ A set of commands and tools for ActiveDirectory.
 | [Get-tADLockedAccounts](docs/Get-tADLockedAccounts.md)                 | Get locked accounts                                       |
 | [Get-tADMode](docs/Get-tADMode.md)                                     | Get current AD Mode                                       |
 | [Get-tADStaleAccounts](docs/Get-tADStaleAccounts.md)                   | Get stale accounts                                        |
-| [Get-tADUsersPWneverExpired]                                           | Get user with never expired password                      |
-| [Get-tADwellKnownObjects]                                              | Get Active Directory well known objects by well known SID |
+| [Get-tADUsersPWDneverExpired](docs/Get-tADUsersPWDneverExpired.md)     | Get user with never expired password                      |
+| [Get-tADwellKnownObjects](docs/Get-tADwellKnownObjects.md)             | Get Active Directory well known objects by well known SID |
 | [Test-tADDomainControllerPorts](docs/Test-tADDomainControllerPorts.md) | Test port requirements for establishing DC communication  |
 | [Get-tADUsersNeverSetPassword](docs/Get-tADUsersNeverSetPassword.md)   | Get user with never expired password                      |
 
