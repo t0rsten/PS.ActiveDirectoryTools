@@ -20,7 +20,7 @@ A set of commands and tools for ActiveDirectory.
 
 | Name                          | Description                                               |
 | ----------------------------- | --------------------------------------------------------- |
-| Get-tADDisabledAccounts       | Get disabled accounts                                     |
+| [Get-tADDisabledAccounts](docs/Get-tADDisabledAccounts.md)       | Get disabled accounts                                     |
 | Get-tADEmptyGroups            | Get empty groups                                          |
 | Get-tADFSMOHolders            | Get FSMO Holders                                          |
 | Get-tADLockedAccounts         | Get locked accounts                                       |
