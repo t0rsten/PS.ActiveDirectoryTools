@@ -18,18 +18,18 @@ A set of commands and tools for ActiveDirectory.
 
 ### Functions
 
-| Name                          | Description                                               |
-| ----------------------------- | --------------------------------------------------------- |
-| [Get-tADDisabledAccounts](docs/Get-tADDisabledAccounts.md)       | Get disabled accounts                                     |
-| Get-tADEmptyGroups            | Get empty groups                                          |
-| Get-tADFSMOHolders            | Get FSMO Holders                                          |
-| Get-tADLockedAccounts         | Get locked accounts                                       |
-| Get-tADMode                   | Get current AD Mode                                       |
-| Get-tADStaleAccounts          | Get stale accounts                                        |
-| Get-tADUserPWneverExpired     | Get user with never expired password                      |
-| Get-tADwellKnownObjects       | Get Active Directory well known objects by well known SID |
-| Test-tADDomainControllerPorts | Test port requirements for establishing DC communication  |
-| Get-tADUsersNeverSetPassword  | Get user with never expired password                      |
+| Name                                                                   | Description                                               |
+| ---------------------------------------------------------------------- | --------------------------------------------------------- |
+| [Get-tADDisabledAccounts](docs/Get-tADDisabledAccounts.md)             | Get disabled accounts                                     |
+| [Get-tADEmptyGroups](docs/Get-tADEmptyGroups.md)                       | Get empty groups                                          |
+| [Get-tADFSMOHolders](docs/Get-tADFSMOHolders.md)                       | Get FSMO Holders                                          |
+| [Get-tADLockedAccounts](docs/Get-tADLockedAccounts.md)                 | Get locked accounts                                       |
+| [Get-tADMode](docs/Get-tADMode.md)                                     | Get current AD Mode                                       |
+| [Get-tADStaleAccounts](docs/Get-tADStaleAccounts.md)                   | Get stale accounts                                        |
+| [Get-tADUsersPWneverExpired]                                           | Get user with never expired password                      |
+| [Get-tADwellKnownObjects]                                              | Get Active Directory well known objects by well known SID |
+| [Test-tADDomainControllerPorts](docs/Test-tADDomainControllerPorts.md) | Test port requirements for establishing DC communication  |
+| [Get-tADUsersNeverSetPassword](docs/Get-tADUsersNeverSetPassword.md)   | Get user with never expired password                      |
 
 
 ### Installation
