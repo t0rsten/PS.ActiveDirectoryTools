@@ -30,6 +30,7 @@ A set of commands and tools for ActiveDirectory.
 | [Get-tADwellKnownObjects](docs/Get-tADwellKnownObjects.md)             | Get Active Directory well known objects by well known SID |
 | [Test-tADDomainControllerPorts](docs/Test-tADDomainControllerPorts.md) | Test port requirements for establishing DC communication  |
 | [Get-tADUsersNeverSetPassword](docs/Get-tADUsersNeverSetPassword.md)   | Get user with never expired password                      |
+| Test-tADisGroupMember                                                  | Test if AD Object is member of group                      |
 
 
 ### Installation
@@ -40,6 +41,7 @@ Install-Module -Name PS.ActiveDirectoryTools
 
 ### Changelog
 #### Version 0.2.0
+  - Added function ```Test-tADisGroupMember```
   - Added function ```Test-tADDomainControllerPorts```
   - Added function ```Get-tADUsersNeverSetPassword```
   - Updated comment based help in functions
