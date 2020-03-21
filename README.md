@@ -46,6 +46,7 @@ Install-Module -Name PS.ActiveDirectoryTools
   - Added function ```Get-tADUsersNeverSetPassword```
   - Updated comment based help in functions
   - Updated Markdown helpfiles in ```./docs```
+  - Added ExternalModuleDependencies in Module manifest
 
 #### Version 0.1.1
   - Added Markdown helpfiles in ```./docs```
