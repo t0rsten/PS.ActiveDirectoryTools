@@ -13,10 +13,11 @@ A set of commands and tools for ActiveDirectory.
 ### Table of Contents
 **[Functions](#functions)**<br>
 **[Installation](#installation)**<br>
+**[Examples of usage](#examples-of-usage)**<br>
 **[Documentation](#documentation)**<br>
 **[Changelog](#changelog)**<br>
 
-### Functions
+## Functions
 
 | Name                                                                   | Description                                               |
 | ---------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -33,13 +34,16 @@ A set of commands and tools for ActiveDirectory.
 | [Test-tADisGroupMember](docs/Test-tADDomainControllerPorts.md)         | Test if AD Object is member of group                      |
 
 
-### Installation
+## Installation
 ```Powershell
 Install-Module -Name PS.ActiveDirectoryTools
 ```
-### Documentation
 
-### Changelog
+## Examples of usage
+
+## Documentation
+
+## Changelog
 #### Version 0.2.0
   - Added function ```Test-tADisGroupMember```
   - Added function ```Test-tADDomainControllerPorts```
