@@ -1,4 +1,4 @@
-﻿function Get-tADwellKnowObjects{
+﻿function Get-tADwellKnownObjects{
 <#
 .SYNOPSIS
   Get Active Directory well known objects by well known SID.
@@ -10,15 +10,6 @@
 
 .EXAMPLE
   Get-tADwellKnowObjects
-
-.NOTES
-  Author: Torsten Demmich
-  Mail:   torsten.demmich@gmail.com
-  Version:  1.0.0
-
-  --- ChangeLog ---
-  Version 1.0.0
-    - Initial Version
 #>
   [CmdletBinding()]
   Param(

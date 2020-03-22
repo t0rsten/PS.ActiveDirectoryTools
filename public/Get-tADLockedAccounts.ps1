@@ -16,15 +16,6 @@ function Get-tADLockedAccounts{
   .EXAMPLE
     Get-tADLockedAccounts -SearchBase 'OU=Sales,DC=expamle,DC=com'
     Get locked accounts in OU Sales.
-
-  .NOTES
-    Author: Torsten Demmich
-    Mail:   torsten.demmich@gmail.com
-    Version:	1.0.0
-
-    --- ChangeLog ---
-    Version 1.0.0
-      - Initial Version
   #>
     [CmdletBinding()]
     Param(

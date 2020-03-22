@@ -1,32 +1,32 @@
-# Get-tADLockedAccounts
+# Get-tADUsersNeverSetPassword
 
 ## SYNOPSIS
-Get locked accounts.
+Get user with never set password
 
 ## SYNTAX
 
 ```
-Get-tADLockedAccounts [[-SearchBase] <Object>] [<CommonParameters>]
+Get-tADUsersNeverSetPassword [[-SearchBase] <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Get locked accounts in Active Directory.
+Get user with never set password in Active Directory.
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 ```
-Get-tADLockedAccounts
+Get-tADUserNeverSetPassword
 ```
 
-Get locked accounts in the current domain.
+Get user with never set password in the current domain.
 
 ### EXAMPLE 2
 ```
-Get-tADLockedAccounts -SearchBase 'OU=Sales,DC=expamle,DC=com'
+Get-tADUserNeverSetPassword -SearchBase 'OU=Sales,DC=expamle,DC=com'
 ```
 
-Get locked accounts in OU Sales.
+Get user with never set password in OU Sales.
 
 ## PARAMETERS
 
@@ -34,7 +34,7 @@ Get locked accounts in OU Sales.
 Specifies the OU to search under.
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 

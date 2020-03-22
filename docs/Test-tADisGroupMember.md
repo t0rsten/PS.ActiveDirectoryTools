@@ -1,46 +1,61 @@
-# Get-tADLockedAccounts
+# Test-tADisGroupMember
 
 ## SYNOPSIS
-Get locked accounts.
+Test if AD Object is member of group.
 
 ## SYNTAX
 
 ```
-Get-tADLockedAccounts [[-SearchBase] <Object>] [<CommonParameters>]
+Test-tADisGroupMember [-Identity] <String> [-Group] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Get locked accounts in Active Directory.
+Test if AD Object is member of group.
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 ```
-Get-tADLockedAccounts
+Test-tADisGroupMember User1 Group1
 ```
 
-Get locked accounts in the current domain.
+Test if user1 member of group1
 
 ### EXAMPLE 2
 ```
-Get-tADLockedAccounts -SearchBase 'OU=Sales,DC=expamle,DC=com'
+Test-tADisGroupMember -Indetity Group1 -Group Group2
 ```
 
-Get locked accounts in OU Sales.
+Test if group1 member of group2
 
 ## PARAMETERS
 
-### -SearchBase
-Specifies the OU to search under.
+### -Identity
+Identity of AD Object.
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 
-Required: False
+Required: True
 Position: 1
-Default value: (Get-ADDomain).DistinguishedName
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Group
+Specify the Group.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases:
+
+Required: True
+Position: 2
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

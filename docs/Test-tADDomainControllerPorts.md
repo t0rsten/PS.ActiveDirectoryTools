@@ -1,47 +1,43 @@
-# Get-tADLockedAccounts
+# Test-tADDomainControllerPorts
 
 ## SYNOPSIS
-Get locked accounts.
+Test port requirements for establishing DC communication.
 
 ## SYNTAX
 
 ```
-Get-tADLockedAccounts [[-SearchBase] <Object>] [<CommonParameters>]
+Test-tADDomainControllerPorts [-ComputerName] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Get locked accounts in Active Directory.
+The CmdLet display diagnostig information about the port requirements for establishing DC to DC communication.
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 ```
-Get-tADLockedAccounts
+Test-tADDomainControllerPorts -ComputerName Server01
 ```
-
-Get locked accounts in the current domain.
 
 ### EXAMPLE 2
 ```
-Get-tADLockedAccounts -SearchBase 'OU=Sales,DC=expamle,DC=com'
+Test-tADDomainControllerPorts -ComputerName 'Server1','Server2'
 ```
-
-Get locked accounts in OU Sales.
 
 ## PARAMETERS
 
-### -SearchBase
-Specifies the OU to search under.
+### -ComputerName
+Specifies a computer name.
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 
-Required: False
+Required: True
 Position: 1
-Default value: (Get-ADDomain).DistinguishedName
-Accept pipeline input: False
+Default value: None
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 

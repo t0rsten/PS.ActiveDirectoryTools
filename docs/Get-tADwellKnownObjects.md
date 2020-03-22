@@ -1,46 +1,39 @@
-# Get-tADLockedAccounts
+# Get-tADwellKnownObjects
 
 ## SYNOPSIS
-Get locked accounts.
+{{ Fill in the Synopsis }}
 
 ## SYNTAX
 
 ```
-Get-tADLockedAccounts [[-SearchBase] <Object>] [<CommonParameters>]
+Get-tADwellKnownObjects [[-ComputerName] <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Get locked accounts in Active Directory.
+{{ Fill in the Description }}
 
 ## EXAMPLES
 
-### EXAMPLE 1
-```
-Get-tADLockedAccounts
-```
-
-Get locked accounts in the current domain.
-
-### EXAMPLE 2
-```
-Get-tADLockedAccounts -SearchBase 'OU=Sales,DC=expamle,DC=com'
+### Example 1
+```powershell
+PS C:\> {{ Add example code here }}
 ```
 
-Get locked accounts in OU Sales.
+{{ Add example description here }}
 
 ## PARAMETERS
 
-### -SearchBase
-Specifies the OU to search under.
+### -ComputerName
+{{ Fill ComputerName Description }}
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 1
-Default value: (Get-ADDomain).DistinguishedName
+Position: 0
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -50,8 +43,11 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
+### System.Object
 ## NOTES
 
 ## RELATED LINKS

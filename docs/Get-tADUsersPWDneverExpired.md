@@ -1,32 +1,32 @@
-# Get-tADLockedAccounts
+# Get-tADUsersPWDneverExpired
 
 ## SYNOPSIS
-Get locked accounts.
+Get user with never expired password.
 
 ## SYNTAX
 
 ```
-Get-tADLockedAccounts [[-SearchBase] <Object>] [<CommonParameters>]
+Get-tADUsersPWDneverExpired [[-SearchBase] <Object>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Get locked accounts in Active Directory.
+Get user with never expired password in Active Directory.
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 ```
-Get-tADLockedAccounts
+Get-tADUserPWDneverExpired
 ```
 
-Get locked accounts in the current domain.
+Get user with never expired password in the current domain.
 
 ### EXAMPLE 2
 ```
 Get-tADLockedAccounts -SearchBase 'OU=Sales,DC=expamle,DC=com'
 ```
 
-Get locked accounts in OU Sales.
+Get user with never expired password in OU Sales.
 
 ## PARAMETERS
 

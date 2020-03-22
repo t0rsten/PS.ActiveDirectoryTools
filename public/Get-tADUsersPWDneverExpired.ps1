@@ -1,4 +1,4 @@
-function Get-tADUserPWDneverExpired{
+function Get-tADUsersPWDneverExpired{
 <#
 .Synopsis
   Get user with never expired password.
@@ -16,15 +16,6 @@ function Get-tADUserPWDneverExpired{
 .EXAMPLE
   Get-tADLockedAccounts -SearchBase 'OU=Sales,DC=expamle,DC=com'
   Get user with never expired password in OU Sales.
-
-.NOTES
-  Author: Torsten Demmich
-  Mail:   torsten.demmich@gmail.com
-  Version:	1.0.0
-
-  --- ChangeLog ---
-  Version 1.0.0
-    - Initial Version
 #>
   [CmdletBinding()]
   Param(
