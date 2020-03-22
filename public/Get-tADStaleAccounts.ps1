@@ -16,10 +16,6 @@
 .EXAMPLE
   Get-tADStaleAccounts -SearchBase 'OU=Sales,DC=expamle,DC=com'
   Get stale accounts in OU Sales.
-
-.NOTES
-  Author: Torsten Demmich
-  Mail:   torsten.demmich@gmail.com
 #>
   [CmdletBinding()]
   Param(
