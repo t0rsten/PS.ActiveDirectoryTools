@@ -9,10 +9,6 @@
   .EXAMPLE
     Get-Get-tADMode
     Get current AD Mode.
-
-  .NOTES
-    Author: Torsten Demmich
-    Mail:   torsten.demmich@gmail.com
   #>
     [CmdletBinding()]
     Param()
