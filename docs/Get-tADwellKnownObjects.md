@@ -1,10 +1,3 @@
----
-external help file: PS.ActiveDirectoryTools-help.xml
-Module Name: PS.ActiveDirectoryTools
-online version:
-schema: 2.0.0
----
-
 # Get-tADwellKnownObjects
 
 ## SYNOPSIS
