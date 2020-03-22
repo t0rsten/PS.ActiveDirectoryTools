@@ -16,10 +16,6 @@ function Get-tADUsersNeverSetPassword {
 .EXAMPLE
   Get-tADUserNeverSetPassword -SearchBase 'OU=Sales,DC=expamle,DC=com'
   Get user with never set password in OU Sales.
-
-.NOTES
-  Author: Torsten Demmich
-  Mail:   torsten.demmich@gmail.com
 #>
   [CmdletBinding()]
   Param(
