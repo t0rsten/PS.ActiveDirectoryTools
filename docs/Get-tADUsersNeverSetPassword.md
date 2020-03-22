@@ -1,10 +1,3 @@
----
-external help file: PS.ActiveDirectoryTools-help.xml
-Module Name: PS.ActiveDirectoryTools
-online version:
-schema: 2.0.0
----
-
 # Get-tADUsersNeverSetPassword
 
 ## SYNOPSIS
@@ -60,7 +53,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
-Author: Torsten Demmich
-Mail:   torsten.demmich@gmail.com
 
 ## RELATED LINKS
