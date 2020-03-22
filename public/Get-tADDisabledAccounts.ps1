@@ -16,10 +16,6 @@
   .EXAMPLE
     Get-tADDisabledAccounts -SearchBase 'OU=Sales,DC=expamle,DC=com'
     Get edisabled accounts in OU Sales.
-
-  .NOTES
-    Author: Torsten Demmich
-    Mail: torsten.demmich@gmail.com
   #>
     [CmdletBinding()]
     Param(
