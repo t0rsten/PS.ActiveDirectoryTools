@@ -10,10 +10,6 @@
 
 .EXAMPLE
   Get-tADwellKnowObjects
-
-.NOTES
-  Author: Torsten Demmich
-  Mail:   torsten.demmich@gmail.com
 #>
   [CmdletBinding()]
   Param(
