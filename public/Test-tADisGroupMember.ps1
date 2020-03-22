@@ -19,10 +19,6 @@
 .EXAMPLE
   Test-tADisGroupMember -Indetity Group1 -Group Group2
   Test if group1 member of group2
-
-.NOTES
-  Author: Torsten Demmich
-  Mail:   torsten.demmich@gmail.com
 #>
   [CmdletBinding()]
   Param(
