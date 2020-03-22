@@ -9,10 +9,6 @@
   .EXAMPLE
     Get-tADFSMOHolders
     Get FSMO holders.
-
-  .NOTES
-    Author: Torsten Demmich
-    Mail:   torsten.demmich@gmail.com
   #>
     [CmdletBinding()]
     Param()
