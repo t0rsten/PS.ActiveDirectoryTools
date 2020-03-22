@@ -14,10 +14,6 @@
 
 .EXAMPLE
   Test-tADDomainControllerPorts -ComputerName 'Server1','Server2'
-
-.NOTES
-  Author:   Torsten Demmich
-  Mail:   torsten.demmich@gmail.com
 #>
   [CmdletBinding()]
   Param(
