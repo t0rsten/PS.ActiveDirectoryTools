@@ -44,6 +44,7 @@ Install-Module -Name PS.ActiveDirectoryTools
 ## Examples of usage
 
 ## Documentation
+A complete list of all help files can be found [here](docs/).
 
 ## Changelog
 #### Version 0.2.0
