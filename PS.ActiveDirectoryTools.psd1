@@ -12,7 +12,7 @@
 RootModule = 'PS.ActiveDirectoryTools.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.2.0'
+ModuleVersion = '0.3.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -69,7 +69,7 @@ PowerShellVersion = '5.1'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = @('Get-tADDisabledAccounts','Get-tADEmptyGroups','Get-tADFSMOHolders','Get-tADLockedAccounts','Get-tADMode','Get-tADStaleAccounts','Get-tADUsersPWDneverExpired','Get-tADUsersNeverSetPassword','Get-tADwellKnownObjects','Test-tADDomainControllerPorts','Test-tADisGroupMember')
+FunctionsToExport = @('Get-tADDisabledAccounts','Get-tADEmptyGroups','Get-tADFSMOHolders','Get-tADLockedAccounts','Get-tADMode','Get-tADStaleAccounts','Get-tADUsersPWDneverExpired','Get-tADUsersNeverSetPassword','Get-tADwellKnownObjects','Test-tADDomainControllerPorts','Test-tADisGroupMember','Get-tADUserWithAccessRuleProtected')
 
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
