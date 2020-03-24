@@ -46,7 +46,10 @@ Install-Module -Name PS.ActiveDirectoryTools
 ## Documentation
 A complete list of all help files can be found [here](docs/).
 
-## Changelog
+## Change Log
+#### Version 0.3.0
+  - Added function ```Get-tADUserWithAccessRuleProtected```
+
 #### Version 0.2.0
   - Added function ```Test-tADisGroupMember```
   - Added function ```Test-tADDomainControllerPorts```
