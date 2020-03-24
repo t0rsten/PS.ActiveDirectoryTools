@@ -34,6 +34,7 @@ A set of commands and tools for ActiveDirectory.
 | [Test-tADDomainControllerPorts](docs/Test-tADDomainControllerPorts.md) | Test port requirements for establishing DC communication  |
 | [Get-tADUsersNeverSetPassword](docs/Get-tADUsersNeverSetPassword.md)   | Get user with never expired password                      |
 | [Test-tADisGroupMember](docs/Test-tADDomainControllerPorts.md)         | Test if AD Object is member of group                      |
+| [Get-tADUserWithAccessRuleProtected]                                   |                                                           |
 
 
 ## Installation
