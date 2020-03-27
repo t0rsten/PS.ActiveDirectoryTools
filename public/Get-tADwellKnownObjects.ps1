@@ -6,16 +6,11 @@
 .DESCRIPTION
   Get Active Directory well known objects like Domain Admins by SID.
 
-.PARAMETER
-
 .EXAMPLE
   Get-tADwellKnowObjects
 #>
   [CmdletBinding()]
-  Param(
-    [Parameter(Mandatory=$false,Position=0)]
-    [string]$ComputerName
-  )
+  Param()
 
   $sidTable = @{'Administrator' = '-500';
     'Guest' = '-501';
