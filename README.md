@@ -35,6 +35,7 @@ A set of commands and tools for ActiveDirectory.
 | [Get-tADUsersNeverSetPassword](docs/Get-tADUsersNeverSetPassword.md)   | Get user with never expired password                      |
 | [Test-tADisGroupMember](docs/Test-tADDomainControllerPorts.md)         | Test if AD Object is member of group                      |
 | [Get-tADUserWithAccessRuleProtected]                                   |                                                           |
+| [Get-tADhighPrivilegeAccounts]                                         |                                                           |
 
 
 ## Installation
