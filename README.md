@@ -50,6 +50,7 @@ A complete list of all help files can be found [here](docs/).
 
 ## Change Log
 #### Version 0.3.0
+  - Added function ```Get-tADhighPrivilegeAccounts```
   - Added function ```Get-tADUserWithAccessRuleProtected```
   - Removed parameter ```computer``` in function ```Get-Get-tADwellKnownObjects```
   - Updated comment based help in function ```Get-Get-tADwellKnownObjects```
