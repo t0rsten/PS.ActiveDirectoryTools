@@ -11,10 +11,7 @@ function Get-tAdminSDProtectFrequency {
     Gets AdminSDProtectFrequency.
   #>
   [CmdletBinding()]
-  Param(
-    [Parameter(Mandatory=$false)]
-    [String]$SearchBase = (Get-ADDomain).DistinguishedName
-  )
+  Param()
 
   $ErrorActionPreference = 'Stop'
   $RegPath = 'Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NTDS\Parameters\'
